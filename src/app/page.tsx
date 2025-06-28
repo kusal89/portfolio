@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Home() {
@@ -14,11 +15,11 @@ export default function Home() {
       {/* Main content sits above the overlay */}
       <div className="relative z-10 flex flex-col min-h-screen">
         <div className="flex justify-center text-xl font-mono text-emerald-50 gap-4 mt-4">
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
           <span>|</span>
-          <a href="/work">Work</a>
+          <Link href="/work">Work</Link>
           <span>|</span>
-          <a href="/contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
 
         <div className="flex flex-1 justify-center items-center flex-col gap-6 text-center px-4">

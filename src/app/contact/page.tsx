@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Contact() {
@@ -11,9 +12,9 @@ export default function Contact() {
 
       {/* Top bar */}
       <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between px-4 py-4 text-emerald-50 font-mono text-base sm:text-xl">
-        <a href="/" className="mb-2 sm:mb-0 sm:text-lg">
+        <Link href="/" className="mb-2 sm:mb-0 sm:text-lg">
           ← Back
-        </a>
+        </Link>
         <p className="text-center text-sm sm:text-lg">
           How about telling <span className="text-xl sm:text-3xl">your</span> story with lights and shadows...
         </p>
@@ -25,7 +26,7 @@ export default function Contact() {
           Call me <span className="block mt-2">0772213521 / 0782427079</span>
         </p>
         <p className="text-2xl sm:text-3xl font-mono text-emerald-50">
-          If you're on WhatsApp <span className="block mt-2">0782427079</span>
+          If you&apos;re on WhatsApp <span className="block mt-2">0782427079</span>
         </p>
         <p className="text-2xl sm:text-3xl font-mono text-emerald-50">
           Or email <span className="block mt-2">kslnrnmyr@gmail.com</span>

@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function Work() {
   // List of image paths (assumes images in public/images/work/)
@@ -44,9 +46,9 @@ export default function Work() {
 
       {/* Top bar */}
       <div className="relative z-10 flex flex-col sm:flex-row sm:items-center sm:justify-between px-4 py-4 text-emerald-50 font-mono text-base sm:text-xl">
-        <a href="/" className="mb-2 sm:mb-0 sm:ml-2">
+        <Link href="/" className="mb-2 sm:mb-0 sm:ml-2">
           ← Back
-        </a>
+        </Link>
         <p className="text-center w-full sm:w-auto sm:text-lg">
           Here are some of my work...
         </p>
@@ -57,9 +59,11 @@ export default function Work() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((src, index) => (
             <div key={index} className="overflow-hidden rounded shadow-lg">
-              <img
+              <Image
                 src={src}
                 alt={`Work ${index + 1}`}
+                width={500}
+                height={384}
                 className="w-full h-96 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
