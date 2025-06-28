@@ -6,7 +6,7 @@ export default function Home() {
     <div
       className="relative flex min-h-screen flex-col bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/backgrounds/IMG_5077.jpg')",
+        backgroundImage: "url('/images/backgrounds/IMG_5077.JPG')",
       }}
     >
       {/* Overlay inside the background container */}

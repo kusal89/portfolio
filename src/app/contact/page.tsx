@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div
       className="relative flex min-h-screen flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/backgrounds/IMG_5068.jpg')" }}
+      style={{ backgroundImage: "url('/images/backgrounds/IMG_5068.JPG')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-0"></div>
