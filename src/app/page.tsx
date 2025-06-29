@@ -19,7 +19,11 @@ export default function Home() {
           <span>|</span>
           <Link href="/work">Work</Link>
           <span>|</span>
+          <Link href="/projects">Projects</Link>
+          <span>|</span>
           <Link href="/contact">Contact</Link>
+          <span>|</span>
+          <Link href="/about-me">About Me</Link>
         </div>
 
         <div className="flex flex-1 justify-center items-center flex-col gap-6 text-center px-4">
